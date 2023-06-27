@@ -48,7 +48,7 @@ int main()
 		string num;
 		char delim = ';';
 		int x = 0;
-		while (getline(streamline, num, delim)) // Считывание строк в файле csv с разделителем ";" (переход на новую строку)
+		while (getline(streamline, num, delim)) // Считывание значений из csv файла
 		{
 			stringstream streamnum(num);
 			double y;
